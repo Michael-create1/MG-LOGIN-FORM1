@@ -41,7 +41,7 @@ function login(){
     // if(window.location.pathname.includes("dashboard.html")){
     //     const user=localStorage.getItem("loggedUser");
     //     if(!user){
-    //         window.location.href="login.html";
+    //         window.location.href="index.html";
     //     } else{
     //         document.getElementById("user").textContent=user
     //     }
@@ -52,5 +52,6 @@ function login(){
 
 function logout(){
     localStorage.removeItem("loggedUser");
-    window.location.href="login.html";
+    window.location.href="index.html";
+
 }
